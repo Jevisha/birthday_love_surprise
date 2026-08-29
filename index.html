@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#120b20">
+  <title>For My Love ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="hearts"></div>
+  <div id="confetti"></div>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="glow glow-one"></div>
+      <div class="glow glow-two"></div>
+
+      <p class="eyebrow">A little surprise, made with love</p>
+      <h1>Happy Birthday,<br><span>My Love ❤️</span></h1>
+      <p class="subtitle">I made this little corner of the internet just for you.</p>
+
+      <button class="primary-btn" id="openBtn">
+        <span>Open Your Surprise</span> 💌
+      </button>
+      <p class="hint">Turn your sound on for the full experience ♪</p>
+    </section>
+
+    <section class="reveal hidden" id="surprise">
+      <div class="section-card letter-card">
+        <p class="eyebrow">A letter for you</p>
+        <h2>To the person who makes my world brighter</h2>
+        <p>
+          Happy birthday, my love. ❤️ Every memory with you is something
+          I want to keep close forever. Thank you for the laughter, the
+          comfort, the little conversations, and all the moments that make
+          ordinary days feel special.
+        </p>
+        <p>
+          I hope this new year of your life brings you everything your heart
+          is quietly wishing for. And I hope I get to be beside you for many,
+          many more chapters.
+        </p>
+        <p class="signature">Always yours,<br><strong>Your Love 💕</strong></p>
+      </div>
+
+      <div class="section-title">
+        <p class="eyebrow">Our little story</p>
+        <h2>Memories I want to keep forever</h2>
+      </div>
+
+      <div class="gallery">
+        <figure class="photo-card">
+          <img src="photo1.jpg" alt="Our memory 1" onerror="this.src='C:\Users\hp\Downloads\birthday_love_surprise\assets\photos\photo1.png'">
+          <figcaption>The beginning of something beautiful ✨</figcaption>
+        </figure>
+        <figure class="photo-card">
+          <img src="photo2.jpg" alt="Our memory 2" onerror="this.src='https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=900&q=80'">
+          <figcaption>All the little moments that matter ❤️</figcaption>
+        </figure>
+        <figure class="photo-card">
+          <img src="photo3.jpg" alt="Our memory 3" onerror="this.src='https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=900&q=80'">
+          <figcaption>And so many more to come 🌙</figcaption>
+        </figure>
+      </div>
+
+      <div class="reasons section-card">
+        <p class="eyebrow">Just a few reasons</p>
+        <h2>Why you are so special to me</h2>
+        <div class="reason-grid">
+          <div><span>01</span><p>Your smile can change my entire day.</p></div>
+          <div><span>02</span><p>You make even ordinary moments feel memorable.</p></div>
+          <div><span>03</span><p>You are someone I can laugh with and be myself around.</p></div>
+          <div><span>04</span><p>With you, the future feels like something to look forward to.</p></div>
+        </div>
+      </div>
+
+      <div class="final-card">
+        <div class="cake">🎂</div>
+        <p class="eyebrow">One final wish</p>
+        <h2>Make a wish, birthday love.</h2>
+        <p>May this year be full of happiness, adventures, success and love.</p>
+        <button class="primary-btn" id="wishBtn">Make It Sparkle ✨</button>
+        <p id="wishMessage" class="wish-message"></p>
+      </div>
+
+      <footer>Made with too much love ❤️</footer>
+    </section>
+  </main>
+
+  <button class="music-btn" id="musicBtn" aria-label="Toggle music">♫</button>
+  <audio id="music" loop preload="auto" src="assets/music/song.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
